@@ -7,8 +7,8 @@ class student:
         print("roolno:",self.rno)
         print("name:",self.name)
         print("Age:",self.age)
-objstd1=student(100,"Karthik",46)
-objstd2=student(101,"Khasif",34)
+objstd1=student(100,"sachin",46)
+objstd2=student(101,"rohith",34)
 print(objstd1.display())
 print(objstd2.display())
 

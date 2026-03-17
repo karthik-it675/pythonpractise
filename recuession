@@ -1,0 +1,15 @@
+def printNumFive(num):
+    print(num)
+    printNumFour(num-1)
+
+
+def printNumThree(param):
+    pass
+
+
+def printNumFour(num):
+    print(num)
+    printNumThree(num-1)
+
+
+printNumFive(5)

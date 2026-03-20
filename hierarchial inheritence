@@ -1,0 +1,18 @@
+class grandfather:#super clasa
+    farmland='4 acres of farmland'
+    def grandfatherproperty(self):
+        print("4 acres of land")
+class father(grandfather):#
+    building='3 storey building'
+    def fathersproperty(self):
+         print("fathers property")
+class child(grandfather):
+    def myproperty(self):
+        print("my own car")
+fatherobj=father()
+fatherobj.grandfatherproperty()
+fatherobj.fathersproperty()
+print()
+childobj=child()
+childobj.grandfatherproperty()
+childobj.myproperty()

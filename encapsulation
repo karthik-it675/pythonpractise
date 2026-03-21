@@ -1,0 +1,10 @@
+class A():
+    def _hi(selfself):# it is protected by using _ suymbol
+        print("hello guys")
+class B(A):
+    def greet(self):
+        print("good morning")
+        objA=A()
+        objA._hi()
+bobj=B()
+bobj.greet()

@@ -1,0 +1,9 @@
+class employee:
+    def __init__(self):
+        self.name="sachin"
+        self.empid=22
+        self.salary=70000
+obj=employee()
+print(obj.name)
+print(obj.empid)
+print(obj.salary)
